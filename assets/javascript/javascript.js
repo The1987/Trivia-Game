@@ -9,7 +9,7 @@ var number = 60;
 //  the "run" function
 var intervalId;
 
-//$("#enter-button").on("click", run);
+$("#enter-button").on("click", run);
 
 
 //function enter() {
@@ -55,7 +55,7 @@ function stop() {
   //  to the clearInterval function.
   clearInterval(intervalId);
 }
-
+/*
 var correct = 0;
 var wrong = 0;
 
@@ -93,4 +93,4 @@ $('#submitButton').on("click", function () {
   }
 });
 
-//|| (b === 0) || (c === 0)) 
+//|| (b === 0) || (c === 0)) */
