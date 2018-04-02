@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- W3 CSS Stylesheet -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- JQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+
+
+    <title>Rock 'n' Roll Trivia</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 id="h1">Rock 'N' Roll Trivia</h1>
+        <!--<img src="assets/images/rnr.jpg"> -->
+        <div id="start">
+            <h2 id="time-remaining"></h2>
+        </div>
+        <div>
+            <div id="correct">Correct: </div>
+            <div id="wrong">Wrong: </div>
+        </div>
+    </header>
+
+    <!-- The Trivia Quiz -->
+    <div id="container">
+
+        <form id="quiz">
+            <!-- Question One -->
+            <div id="questionOne" class="questionDiv">
+                <h2>Who was the original singer for Van Halen?</h2>
+                <p>
+                    <input class="Q1" type="radio" name="Q1" value="0"> Sammy Hagar
+                    <br>
+                    <input class="Q1" type="radio" name="Q1" value="1"> David Lee Roth
+                    <br>
+                    <input class="Q1" type="radio" name="Q1" value="0"> Gary Cherone
+                </p>
+            </div>
+
+            <!-- Question Two -->
+            <div id="questionTwo" class="questionDiv">
+                <h2>Jimmy Page was in what infamous band?</h2>
+                <p>
+                    <input class="Q2" type="radio" name="Q2" value="false"> The Rolling Stones
+                    <br>
+                    <input class="Q2" type="radio" name="Q2" value="false"> AC/DC
+                    <br>
+                    <input class="Q2" type="radio" name="Q2" value="true"> Led Zepplin
+                </p>
+            </div>
+
+            <!-- Question Three -->
+            <div id="questionThree" class="questionDiv">
+                <h2>In which city did AC/DC record their album "Back in Black"?</h2>
+                <p>
+                    <input type="radio" name="Q3" value="true"> Nassau, Bahamas
+                    <br>
+                    <input type="radio" name="Q3" value="false"> London, England
+                    <br>
+                    <input type="radio" name="Q3" value="false"> Los Angeles, Calfornia
+                </p>
+            </div>
+
+            <!-- Submit Button -->
+            <div id="submitButton" class="">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Javascript Link -->
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>
